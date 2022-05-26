@@ -1,15 +1,40 @@
 
 /* CSS for my webpage */
 
+body {
+    color: #f0ecec;
+ 
+
+}
+
+
 h1 {
-    color:black;
+    
     font-size: 3em;
     font-family: Macondo;
 }
 
+
+
 h3 {
     color:white; 
     font-family: Macondo;
+
+}
+
+.jumbotron {
+    color: black !important;
+}
+
+a {
+    color: #d5d5d5;
+    text-decoration: underline;
+    font-size: 1.1em;
+
+}
+
+a:hover {
+   color: white;
 
 }
 
@@ -59,4 +84,6 @@ h3 {
     width: 100% !important;
   }
 
-
+.youtube_embed {
+  aspect-ratio: 480/385;
+}
